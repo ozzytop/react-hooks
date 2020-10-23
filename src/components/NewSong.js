@@ -7,6 +7,7 @@ const NewSongForm = ({addSong}) => {
         e.preventDefault();
         addSong(title);
     }
+    
     return ( 
         <form onSubmit={handleSubmit}>
             <label>Song Name</label>
